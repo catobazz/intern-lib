@@ -3,5 +3,6 @@ import { ComponentPropsWithoutRef } from "react";
 type Props = ComponentPropsWithoutRef<"button">;
 
 export function Button(props: Props) {
-  return <button {...props}>Hello world</button>;
+  console.log("button");
+  return <button {...props}>Hello World</button>;
 }
