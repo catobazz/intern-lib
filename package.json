@@ -1,5 +1,5 @@
 {
-  "name": "ui-kit",
+  "name": "ui-kit-test",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -29,6 +29,7 @@
   },
   "dependencies": {
     "@fontsource/roboto": "^5.0.14",
+    "clsx": "^2.1.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },

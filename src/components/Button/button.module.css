@@ -1,0 +1,27 @@
+.button {
+    all: unset;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    box-sizing: border-box;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+}
+
+.button.primary {
+    background-color: blue;
+    color: white;
+}
+
+.button.secondary {
+    background-color: gray;
+    color: blue;
+}
+
+.button:focus-visible {
+    outline: 2px solid blue;
+}
+.button.fullWidth {
+    width: 100%;
+    justify-content: center;
+}
