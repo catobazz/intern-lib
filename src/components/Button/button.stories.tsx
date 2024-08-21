@@ -1,7 +1,6 @@
 import {Button} from './button';
 import {Meta, StoryObj} from '@storybook/react';
-import {useRef, useState} from "react";
-import {render} from "react-dom";
+import {useState} from "react";
 
 const meta = {
     title: 'Components/Button',
